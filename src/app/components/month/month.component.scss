@@ -1,0 +1,32 @@
+.day-item {
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+  }
+  
+  .day-item.primary {
+    background-color: #e7e7e7;
+  
+  }
+  
+  .day-item.sunday {
+    background-color: #999 !important;
+  }
+
+  .day-item.holyday{
+    background-color: #f04124;
+  }
+
+  .day-item.today{
+    background-color: #008CBA;
+  }
+ul {
+  font-family: inherit;
+  font-size: 1rem;
+  line-height: 1.6;
+  padding: 0px;
+  list-style: none;
+}
+
+li {
+}
